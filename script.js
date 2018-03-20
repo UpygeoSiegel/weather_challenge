@@ -1,16 +1,12 @@
 function searchWeather(){
-    var API_KEY = 'a4f3595d529f46e4bc9719b17e1b7938'
-    var URL = 'https://api.weatherbit.io/v2.0/forecast/daily?city=Raleigh&key=' + API_KEY
+    var API_KEY = ''
+    var URL = ''
     
-    fetch(URL)
-    .then(function(data){
-        console.log(data)
-        return data.json()
+    fetch()
+    .then(function(){
     })
-    .then(function(json){
-        console.log(json)
+    .then(function(){
     })
-    .catch(function(errors) {
-        console.log(errors)
+    .catch(function() {
     });
 }
